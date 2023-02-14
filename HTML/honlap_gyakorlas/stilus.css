@@ -1,0 +1,11 @@
+/* Táblázat beállításai */
+table {
+        border-collapse:collapse;  /* szegély összevonása*/
+      }
+td,th { 
+        border:1px solid black;   /* szegély beállítása */
+        padding: 10px;              /* kitöltés (belső margó) beállítása */  
+       }
+
+
+/* További beállítások a feladat szerint */
