@@ -1,0 +1,20 @@
+program
+  be: szam1
+  be: szam2
+  elágazás
+    ha szam1 >= szam2:
+	elágazás
+	  ha szam1%szam2 = 0:
+	    ki: szam2 osztója a szam1-nek
+	  különben:
+	    ki: a szam2 nem osztója a szam1-nek
+	elágazás vége
+	különben:
+	  elágazás
+	  ha szam2%szam1 = 0:
+	    ki: szam1 osztója a szam2-nek
+	  különben:
+	    ki: a szam1 nem osztója a szam2-nek
+	elágazás vége
+  elágazás vége
+program vége

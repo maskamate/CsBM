@@ -1,0 +1,12 @@
+program
+ idei_év = 2021
+ be: születési_év
+ be: volte 
+ szülinapok_száma = idei_év - születési_év -1
+ elágazás 
+  ha volte = "1"?:
+   szülinapok_száma = szülinapok_száma +1
+elágazás vége	
+  ki: szülinapok_száma
+program vége
+		
